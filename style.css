@@ -1,0 +1,86 @@
+@import url('https://fonts.google.com/specimen/Staatliches');
+@import url('https://fonts.google.com/specimen/Jomhuria#standard-styles');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFE5B4;
+    font-size: 25px;
+    font-family: Staatliches;
+}
+
+.main-container {
+    margin: auto;
+    width: 90%;
+}
+
+.container_1{
+    margin-left: 600px;
+}
+h1{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.container_2 {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap; /* Makes notes to move to bottom */
+    margin-top: 20px;
+    margin-left: 5%;
+}
+p {
+    padding: 10px;
+    margin-left: 525px;
+    color: rgb(0, 68, 255);
+}
+
+.container_3 {
+    position: absolute;
+    color: black;
+    top: 40%;
+    left: 37%;
+    display: none;
+}
+#go-check{
+    right: 17%;
+    top: 6%;
+    position: absolute;
+}
+
+#go-check:hover{
+    cursor: pointer;
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+}
+#wrong-check{
+    cursor: pointer;
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+}
+
+#wrong-check{
+    right: 5%;
+    top: 6%;
+    position: absolute;
+}
+
+
+textarea {
+    box-shadow: 10px 10px 20px 0px #FFD700;
+    border: none;
+    outline: none;
+    width: 350px;
+    height: 300px;
+    padding: 30px 20px 10px;
+    font-family: Jomhuria;
+    margin-top: 20px;
+}
+
+
